@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 
 class App extends React.Component {
@@ -24,7 +24,7 @@ class App extends React.Component {
   render(){
     return <div>
       <h1>{this.state.count}</h1>
-    <button onClick={this.increment}>+</button>
+      <button onClick={this.increment}>+</button>
       <button onClick={this.decrement}>-</button>
 
     </div>
